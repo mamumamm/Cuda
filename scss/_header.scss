@@ -1,0 +1,35 @@
+header {
+    background: #505d9c;
+    
+    nav {
+        padding: 0!important;
+        background: #505d9c;
+        box-shadow: none!important;
+
+        .navbar-nav {
+            li {
+                margin: 0 2px;
+                a {
+                    padding: 5px 20px!important;
+                }
+            }
+        }
+    }
+
+    #intro {
+        padding: 180px 0 160px;
+        
+        h1 {
+            font-size: 39px;
+            line-height: 1.4;
+        }
+        .btn {
+            background: #eb7d4b;
+            border-bottom: 4px solid #c86a40;
+
+            &:hover {
+                background: #F78B5A;
+            }
+        }
+    }
+}

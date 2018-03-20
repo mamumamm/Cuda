@@ -1,0 +1,169 @@
+body {
+  font-family: 'Titillium Web', sans-serif; }
+  body #services,
+  body #team,
+  body #skills,
+  body #work,
+  body #about,
+  body #contact {
+    padding: 80px 0; }
+    body #services .heading,
+    body #team .heading,
+    body #skills .heading,
+    body #work .heading,
+    body #about .heading,
+    body #contact .heading {
+      letter-spacing: 5px; }
+    body #services .desc-section,
+    body #team .desc-section,
+    body #skills .desc-section,
+    body #work .desc-section,
+    body #about .desc-section,
+    body #contact .desc-section {
+      font-size: 20px;
+      line-height: 1.5; }
+    body #services .line span,
+    body #team .line span,
+    body #skills .line span,
+    body #work .line span,
+    body #about .line span,
+    body #contact .line span {
+      display: inline-block;
+      padding: 2px 45px; }
+    body #services .column,
+    body #team .column,
+    body #skills .column,
+    body #work .column,
+    body #about .column,
+    body #contact .column {
+      margin-top: 100px; }
+    body #services .box-content .title,
+    body #team .box-content .title,
+    body #skills .box-content .title,
+    body #work .box-content .title,
+    body #about .box-content .title,
+    body #contact .box-content .title {
+      font-weight: 600; }
+  body .container {
+    padding: 0; }
+  body .btn {
+    padding: 18px 57px;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease; }
+
+header {
+  background: #505d9c; }
+  header nav {
+    padding: 0 !important;
+    background: #505d9c;
+    box-shadow: none !important; }
+    header nav .navbar-nav li {
+      margin: 0 2px; }
+      header nav .navbar-nav li a {
+        padding: 5px 20px !important; }
+  header #intro {
+    padding: 180px 0 160px; }
+    header #intro h1 {
+      font-size: 39px;
+      line-height: 1.4; }
+    header #intro .btn {
+      background: #eb7d4b;
+      border-bottom: 4px solid #c86a40; }
+      header #intro .btn:hover {
+        background: #F78B5A; }
+
+#services {
+  background: #17C2A4; }
+  #services .line-green span {
+    background: #14a58c; }
+
+#team {
+  background: #E7F1F8; }
+  #team .line-skyblue span {
+    background: #C8D9E5; }
+  #team img {
+    height: 150px;
+    border-radius: 50%; }
+  #team .social-icon i {
+    display: inline-block;
+    font-size: 21px;
+    color: #89A1B2; }
+    #team .social-icon i:hover {
+      color: #4A8FC0; }
+
+#skills .line-skyblue span {
+  background: #C8D9E5; }
+
+#work {
+  background: #FFDD99; }
+  #work .line-yellow span {
+    background: #ebc985; }
+  #work ul li {
+    border-radius: 3px;
+    background: #ebc985;
+    padding: 5px 25px; }
+    #work ul li:hover {
+      background: #fff; }
+    #work ul li .nav-link {
+      color: #514c43;
+      font-size: 18px;
+      padding: 0; }
+  #work .tab-content h5 {
+    font-weight: 600; }
+  #work .btn {
+    background: #17c2a4;
+    border-bottom: 4px solid #14A58C; }
+    #work .btn:hover {
+      background: #00B495;
+      box-shadow: none; }
+
+#about {
+  background: #D74648; }
+  #about .line-red span {
+    background: #BA3639; }
+  #about .client {
+    margin-top: 70px; }
+    #about .client .media {
+      max-width: 500px; }
+      #about .client .media img {
+        border-radius: 50%;
+        height: 110px; }
+      #about .client .media .media-body q {
+        line-height: 1.7;
+        font-size: 21px; }
+
+#contact {
+  background: #505d9c; }
+  #contact .line-navy span {
+    background: #273A71; }
+  #contact .text-box label {
+    width: 48%;
+    float: left; }
+    #contact .text-box label:last-child {
+      margin-left: 4%; }
+    #contact .text-box label input {
+      background: #2f3956;
+      border: none;
+      color: white;
+      font-size: 19px;
+      padding: 15px; }
+  #contact textarea {
+    background: #2f3956;
+    width: 100%;
+    border: none;
+    color: white;
+    font-size: 19px;
+    padding: 15px; }
+  #contact .btn {
+    background: #30bae7;
+    border-bottom: 4px solid #299ec5; }
+    #contact .btn:hover {
+      background: #2AACD6;
+      box-shadow: none; }
+
+footer {
+  padding: 16px 0;
+  background: #131A25; }
+
+/*# sourceMappingURL=style.css.map */
